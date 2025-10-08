@@ -13,7 +13,7 @@ SECRET_KEY = "django-insecure-j6(bdqcm$f9v7(ajvf*+u@noo$c9_fzo9afvqzpmj=^rj(w-k_
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['shedybro.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['shedybro.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
