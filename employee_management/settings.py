@@ -11,9 +11,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = "django-insecure-j6(bdqcm$f9v7(ajvf*+u@noo$c9_fzo9afvqzpmj=^rj(w-k_"
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shedybro.pythonanywhere.com', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
@@ -37,6 +37,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "employee_management.urls"
+# Static files serving with WhiteNoise
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Template configuration
 TEMPLATES = [
